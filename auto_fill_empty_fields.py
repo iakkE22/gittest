@@ -9,7 +9,6 @@ from tqdm import tqdm
 import concurrent.futures
 import time
 
-# 配置API客户端
 client = OpenAI(
     api_key="0ff078a2-54d2-46e1-8a21-8fe612fb82a7", 
     base_url="https://ark.cn-beijing.volces.com/api/v3",
@@ -40,7 +39,7 @@ def fill_with_defaults(current_data, empty_fields):
     
     for field in empty_fields:
         if field == "适用人群":
-            filled_data["适用人群"] = "通用"
+            filled_data["适用人群"] = "通用这是一个软件工程git测试，在B2分支上"
         elif field == "写作风格":
             filled_data["写作风格"] = "通俗易懂"
         elif field == "商户":
