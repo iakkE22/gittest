@@ -39,7 +39,7 @@ def fill_with_defaults(current_data, empty_fields):
     
     for field in empty_fields:
         if field == "适用人群":
-            filled_data["适用人群"] = "通用这是一个软件工程git测试，在B2分支上"
+            filled_data["适用人群"] = "通用!这是B3分支的修改！我在制造冲突！B3B3B3这是一个软件工程git测试，在B2分支上"
         elif field == "写作风格":
             filled_data["写作风格"] = "通俗易懂"
         elif field == "商户":

@@ -9,7 +9,7 @@ import concurrent.futures
 from pathlib import Path
 import logging
 
-# 设置日志
+# 设置日志B3B3
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 

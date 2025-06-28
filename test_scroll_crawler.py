@@ -20,7 +20,7 @@ def test_scroll_crawler():
     print(f"目标帖子数: {target_posts}")
     print("=" * 40)
     
-    # 创建爬虫实例
+    # 创建爬虫实例B3oiefhsdfjl;/sfjsl
     crawler = XiaohongshuCrawler(
         headless=False,        # 不使用无头模式，便于观察
         output_dir="test_output",
